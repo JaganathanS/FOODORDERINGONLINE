@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1">-->
+<title>StrangerChat</title>
+  
+<link rel="stylesheet" type="text/css" href="js/jScrollPane/jScrollPane.css" />
+<link rel="stylesheet" type="text/css" href="css/page.css" />
+<link rel="stylesheet" type="text/css" href="css/chat.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>  
+
+
+
+    <div id="chatTopBar" class="rounded"></div>
+    <div id="chatLineHolder"></div>
+    
+    <div id="chatUsers" class="rounded"></div>
+    <div id="chatBottomBar" class="rounded">
+    	<div class="tip"></div>
+        
+        <form id="loginForm" method="post" action="">
+            <input id="name" name="name" class="rounded" maxlength="16" />
+            <input id="email" name="email" class="rounded" />
+            <input type="submit" class="blueButton" value="Login" />
+        </form>
+        
+        <form id="submitForm" method="post" action="">
+            <input id="chatText" name="chatText" class="rounded" maxlength="255" />
+            <input type="submit" class="blueButton" value="Submit" />
+        </form>
+        
+    </div>
+   
+<script src="js/script2.js"></script>
+<script src="js/jScrollPane/jquery.mousewheel.js"></script>
+<script src="js/jScrollPane/jScrollPane.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
